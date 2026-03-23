@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman Dura | IT & NOC Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset & Fonts */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: 'Inter', sans-serif; line-height:1.6; color:#2c3e50; background-color:#f5f7fa; }
+        a { color:#3498db; text-decoration:none; }
+        a:hover { text-decoration:underline; }
+
+        /* Container */
+        .container { max-width:900px; margin:0 auto; padding:40px 20px; }
+
+        /* Header */
+        header { text-align:center; margin-bottom:60px; }
+        header h1 { font-size:2.5rem; margin-bottom:10px; }
+        header p { font-size:1.2rem; color:#555; }
+
+        /* Sections */
+        section { margin-bottom:50px; }
+        h2 { font-size:1.8rem; color:#34495e; margin-bottom:15px; border-bottom:2px solid #3498db; display:inline-block; padding-bottom:5px; }
+        ul { list-style-type:square; margin-left:20px; }
+        li { margin-bottom:8px; }
+
+        /* Project Cards */
+        .project-card { background:#fff; padding:20px; margin-bottom:15px; border-radius:8px; box-shadow:0 3px 6px rgba(0,0,0,0.1); transition:0.3s; }
+        .project-card:hover { transform: translateY(-5px); box-shadow:0 6px 12px rgba(0,0,0,0.15); }
+
+        /* Contact */
+        .contact a { display:inline-block; margin-right:15px; }
+
+        /* Footer */
+        footer { text-align:center; color:#888; margin-top:50px; font-size:0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Suman Dura</h1>
+            <p>IT & NOC Engineer | 10+ Years Experience | Home Lab & Monitoring Specialist</p>
+        </header>
+
+        <!-- About -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Suman Dura, an experienced IT and NOC Engineer. I specialize in Linux, server monitoring, networking, and troubleshooting complex systems. I love building home labs and experimenting with cloud and network setups to keep my skills sharp.</p>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Linux (Debian, Proxmox, Home Lab)</li>
+                <li>Nagios & Redfish Monitoring</li>
+                <li>Networking & Troubleshooting</li>
+                <li>Server & RAID Configuration (LSI, MegaRAID)</li>
+                <li>Cloudflare Tunnels & DNS Management</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Home Lab Setup</h3>
+                <p>Designed and implemented a Proxmox-based home lab with virtual machines, storage, and Cloudflare tunnels for secure remote access.</p>
+            </div>
+            <div class="project-card">
+                <h3>Nagios Monitoring</h3>
+                <p>Configured monitoring for servers, iLO, CPU/DIMM/RAID status, and overall thermal conditions using Nagios Core and Redfish APIs.</p>
+            </div>
+            <div class="project-card">
+                <h3>RAID & Server Troubleshooting</h3>
+                <p>Managed hardware RAID setups, resolved LSI vs MegaRAID conflicts, and optimized server storage configurations.</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out via email or check my GitHub:</p>
+            <div class="contact">
+                <a href="mailto:your@email.com">Email</a>
+                <a href="https://github.com/duraazz14" target="_blank">GitHub</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            &copy; 2026 Suman Dura. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
